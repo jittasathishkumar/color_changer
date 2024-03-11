@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Welcome</title>
+    </head>
+    <style>
+        #color{
+            text-align: center; 
+            position:absolute;
+            top: 50%;
+            bottom: 50%;
+            left: 40%;
+            right: auto;
+        }
+    </style>
+    <body id="color">
+        <button id="red">Red</button>
+        <button id="blue" >Blue</button>
+        <button id="yellow">Yellow</button>
+        <button id="green">Green</button>
+        <button id="pink" >Pink</button>
+        <button id="orange">Orange</button>
+        
+        <script>
+            document.getElementById("red").onclick=function(){
+                document.getElementById("color").style.backgroundColor="red";
+            };
+            document.getElementById("blue").onclick=function(){
+                document.getElementById("color").style.backgroundColor="blue";
+            };document.getElementById("yellow").onclick=function(){
+                document.getElementById("color").style.backgroundColor="yellow";
+            };document.getElementById("green").onclick=function(){
+                document.getElementById("color").style.backgroundColor="green";
+            };document.getElementById("pink").onclick=function(){
+                document.getElementById("color").style.backgroundColor="pink";
+            };document.getElementById("orange").onclick=function(){
+                document.getElementById("color").style.backgroundColor="Orange";
+            };
+        </script>
+    </body>
+</html>
